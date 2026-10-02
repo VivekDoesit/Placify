@@ -2,7 +2,7 @@
 
 **Student Placement Prediction & Career Guidance**
 
-> **Tagline:** _Your Career Starts With Understanding Your Profile._
+ _Your Career Starts With Understanding Your Profile._
 
 Placify is a full-stack machine-learning web application that predicts placement classification (**Placed** or **NotPlaced**) from student profile inputs and provides transparent, educational guidance.
 
