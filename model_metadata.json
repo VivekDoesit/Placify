@@ -1,0 +1,40 @@
+{
+  "model_name": "Student Placement Predictor",
+  "algorithm": "Logistic Regression",
+  "dataset_rows": 10000,
+  "predictive_features": 10,
+  "feature_names": [
+    "CGPA",
+    "Internships",
+    "Projects",
+    "Workshops/Certifications",
+    "AptitudeTestScore",
+    "SoftSkillsRating",
+    "SSC_Marks",
+    "HSC_Marks",
+    "ExtracurricularActivities",
+    "PlacementTraining"
+  ],
+  "numeric_features": [
+    "CGPA",
+    "Internships",
+    "Projects",
+    "Workshops/Certifications",
+    "AptitudeTestScore",
+    "SoftSkillsRating",
+    "SSC_Marks",
+    "HSC_Marks"
+  ],
+  "categorical_features": [
+    "ExtracurricularActivities",
+    "PlacementTraining"
+  ],
+  "classes": [
+    "NotPlaced",
+    "Placed"
+  ],
+  "test_size": 0.2,
+  "random_state": 42,
+  "accuracy": 0.8085,
+  "trained_at": "2026-10-17T12:06:43+00:00"
+}
